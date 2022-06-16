@@ -1,0 +1,20 @@
+body {
+  background-color: blanchedalmond;
+}
+.wrapper {
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+}
+.btn {
+  display: block;
+  border-radius: 50%;
+}
+.slide {
+  display: none;
+}
+.slide.active {
+  display: block;
+}
